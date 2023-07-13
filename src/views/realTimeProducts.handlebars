@@ -1,0 +1,64 @@
+{{!-- FORMULARIO DE CREACION --}}
+<div id="content">
+<div>
+<form id="newProductForm" action="/realtimeproducts" method="POST">
+<div>
+<label for="title">Title:</label>
+<input type="text" id="title" name="title" required>
+</div>
+<br>
+<div>
+<label for="description">Description:</label>
+<input type="text" id="description" name="description" required>
+</div>
+<br>
+<div>
+<label for="code">Code:</label>
+<input type="text" id="code" name="code" required>
+</div>
+<br>
+<div>
+<label for="price">Price:</label>
+<input type="number" id="price" name="price" required>
+</div>
+<br>
+<div>
+<label for="stock">Stock:</label>
+<input type="number" id="stock" name="stock" required>
+</div>
+<br>
+<div>
+<label for="category">Category:</label>
+<input type="text" id="category" name="category" required>
+</div>
+<br>
+<button type="submit" id="submit">Create Product</button>
+</form>
+</div>
+{{!-- LISTA DE PRODUCTOS --}}
+<div>
+{{#each products}}
+<ol style="list-style-type:none;">
+<li style="font-weight: bold;">
+    Title: {{this.title}}
+</li>
+<li>
+    Description: {{this.description}} 
+</li>
+<li>
+    Code: {{this.code}}
+    Price: {{this.price}} 
+    Stock: {{this.stock}} 
+</li>
+<li>Category: {{this.category}}</li>
+<br>
+<li>
+    <button onclick="deleteProduct('{{@index}}')">Eliminar</button>
+</li>
+</ol>
+{{/each}}
+</div>
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/index.js"></script>
