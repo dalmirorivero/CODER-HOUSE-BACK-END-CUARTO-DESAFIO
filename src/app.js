@@ -31,7 +31,7 @@ app.use('/api/carts', cartsRouter);
     
 // CONFIGURACION SERVIDOR SOCKET.IO
 io.on('connection', (socket) => {
-console.log('conectado');
+console.log('New client connected.');
 socket.on('addProduct', async (product) => {
 try {
     await productManager.addProduct(product);

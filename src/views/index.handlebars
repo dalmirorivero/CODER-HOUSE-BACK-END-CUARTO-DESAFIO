@@ -1,9 +1,25 @@
-<div><h1>{{#each products}}</h1>
 <div>
-    <ul>
-    <li>Title: {{this.title}}</li>
-    <li>Description: {{this.description}}</li>
-    <li>Price: {{this.description}}</li>
-    <li>Category: {{this.category}}</li>
-    </ul>
-</div>{{/each}}</div>
+    <h1>
+        {{#each products}}
+    </h1>
+<div class="allproducts">
+    <ol>
+        <li>
+            <h3>{{this.title}}</h3>
+        </li>
+
+        <li>
+            <p>{{this.description}}</p>
+        </li>
+        <li>
+            Code: <p>{{this.code}}</p>
+            Price: <p>$ {{this.price}}</p> 
+            Stock: <p>{{this.stock}}</p> 
+        </li>
+        <li>
+            Category: <p>{{this.category}}</p>
+        </li>
+    </ol>
+</div>
+{{/each}}
+</div>

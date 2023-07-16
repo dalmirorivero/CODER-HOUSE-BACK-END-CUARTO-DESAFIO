@@ -4,7 +4,7 @@ const getRealTimeProducts = async () => {
   try {
     const response = await fetch('/realtimeproducts');
     const html = await response.text();
-    document.getElementById('content').innerHTML = html;
+    document.getElementById('general').innerHTML = html;
   } catch (error) {
     console.error('Error fetching real-time products:', error);
   }
@@ -12,6 +12,7 @@ const getRealTimeProducts = async () => {
   
 socket.on('productCreated', () => {
     getRealTimeProducts();
+    // alert('Product create successfully! 🎉');
 });
 
 document.getElementById('newProductForm').addEventListener('submit', (event) => {
@@ -25,7 +26,7 @@ document.getElementById('newProductForm').addEventListener('submit', (event) => 
         category: event.target.category.value,
 };
 socket.emit('addProduct', product);
-console.log('Product creation successfull.', product);
+console.log('Product creation successfull.');
 event.target.reset();
 });
 
@@ -39,5 +40,6 @@ socket.on('productDeleted', (productId) => {
     const productElement = document.getElementById(`product_${productId}`);
     if (productElement) {
     productElement.remove();
-  } getRealTimeProducts();
+  }  getRealTimeProducts();
+    // alert("Product delete successfully! 🎉");
 });

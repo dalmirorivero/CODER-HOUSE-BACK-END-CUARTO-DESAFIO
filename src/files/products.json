@@ -1,102 +1,202 @@
 [
 	{
-		"title": "5",
-		"description": "5",
-		"code": "5",
-		"price": 5,
+		"title": "JABON P/ROPA 1 LITRO",
+		"description": "Vegano - Fragancia: Neutro",
+		"code": "001",
+		"price": 850,
+		"stock": 10,
+		"category": "Lavanderia",
+		"status": true,
+		"id": 1
+	},
+	{
+		"title": "jabon p/ropa 2 litros",
+		"description": "Vegano - Fragancia: Neutro",
+		"code": "002",
+		"price": 1600,
+		"stock": 10,
+		"category": "Lavanderia",
+		"status": true,
+		"id": 2
+	},
+	{
+		"title": "jabon p/ropa 5 litros",
+		"description": "Vegano - Fragancia: Neutro",
+		"code": "003",
+		"price": 3800,
+		"stock": 10,
+		"category": "Lavanderia",
+		"status": true,
+		"id": 3
+	},
+	{
+		"title": "Detergente p/vajilla 1/2 litro",
+		"description": "PET - Fragancia: Bergamota",
+		"code": "004",
+		"price": 560,
+		"stock": 10,
+		"category": "Cocina",
+		"status": true,
+		"id": 4
+	},
+	{
+		"title": "detergente p/vajilla 1/2 litro",
+		"description": "VIDRIO - Fragancia: Bergamota",
+		"code": "005",
+		"price": 1200,
+		"stock": 10,
+		"category": "Cocina",
+		"status": true,
+		"id": 5
+	},
+	{
+		"title": "DETERGENTE P/VAJILLA 2 LITROS",
+		"description": "Fragancia: Bergamota",
+		"code": "006",
+		"price": 1800,
+		"stock": 10,
+		"category": "Cocina",
+		"status": true,
+		"id": 6
+	},
+	{
+		"title": "DETERGENTE SOLIDO",
+		"description": "90Grs. - Fragancia: Citricos",
+		"code": "007",
+		"price": 800,
 		"stock": 5,
-		"category": "5",
+		"category": "Cocina",
 		"status": true,
-		"id": 52
+		"id": 7
 	},
 	{
-		"title": "6",
-		"description": "6",
-		"code": "6",
-		"price": 6,
-		"stock": 6,
-		"category": "6",
+		"title": "Jabon en pan de coco",
+		"description": "100Grs. - Fragancia: Neutro",
+		"code": "008",
+		"price": 480,
+		"stock": 5,
+		"category": "Vida",
 		"status": true,
-		"id": 53
+		"id": 8
 	},
 	{
-		"title": "7",
-		"description": "7",
-		"code": "7",
-		"price": 7,
-		"stock": 7,
-		"category": "7",
-		"status": true,
-		"id": 54
-	},
-	{
-		"title": "9",
-		"description": "9",
-		"code": "9",
-		"price": 9,
-		"stock": 9,
-		"category": "9",
-		"status": true,
-		"id": 55
-	},
-	{
-		"title": "2",
-		"description": "2",
-		"code": "2",
-		"price": 2,
-		"stock": 2,
-		"category": "2",
-		"status": true,
-		"id": 66
-	},
-	{
-		"title": "1",
-		"description": "1",
-		"code": "1",
-		"price": 1,
-		"stock": 1,
-		"category": "1",
-		"status": true,
-		"id": 67
-	},
-	{
-		"title": "33",
-		"description": "3",
-		"code": "3",
-		"price": 3,
-		"stock": 3,
-		"category": "3",
-		"status": true,
-		"id": 70
-	},
-	{
-		"title": "sada",
-		"description": "dsadsa",
-		"code": "123",
-		"price": 123,
-		"stock": 123,
-		"category": "123",
-		"status": true,
-		"id": 71
-	},
-	{
-		"title": "8",
-		"description": "8",
-		"code": "8",
-		"price": 8,
+		"title": "Limpiador multiusos 1/2 litro",
+		"description": "Fragancia: Arbol de Te",
+		"code": "009",
+		"price": 560,
 		"stock": 8,
-		"category": "8",
+		"category": "Hogar",
 		"status": true,
-		"id": 72
+		"id": 9
 	},
 	{
-		"title": "33",
-		"description": "33",
-		"code": "3333",
-		"price": 33,
-		"stock": 33,
-		"category": "33",
+		"title": "limpiador multiusos 1 litro",
+		"description": "Fragancia: Arbol de Te",
+		"code": "010",
+		"price": 650,
+		"stock": 8,
+		"category": "Hogar",
 		"status": true,
-		"id": 73
+		"id": 10
+	},
+	{
+		"title": "limpiador multiusos 2 litros",
+		"description": "Fragancia: Arbol de Te",
+		"code": "011",
+		"price": 1250,
+		"stock": 8,
+		"category": "Hogar",
+		"status": true,
+		"id": 11
+	},
+	{
+		"title": "limpiador multiusos 5 litros",
+		"description": "Fragancia: Arbol de Te",
+		"code": "012",
+		"price": 3050,
+		"stock": 8,
+		"category": "Hogar",
+		"status": true,
+		"id": 12
+	},
+	{
+		"title": "Limpia vidrios y acero 1/2 litro",
+		"description": "Fragancia: Eucalipto",
+		"code": "013",
+		"price": 560,
+		"stock": 12,
+		"category": "Hogar",
+		"status": true,
+		"id": 13
+	},
+	{
+		"title": "limpia vidrios y acero 1 litro.",
+		"description": "Fragancia: Eucalipto",
+		"code": "014",
+		"price": 650,
+		"stock": 12,
+		"category": "Hogar",
+		"status": true,
+		"id": 14
+	},
+	{
+		"title": "AROMATIZANTE DE AMBIENTES 1/2 litro",
+		"description": "Fragancia: Vainilla y Canela",
+		"code": "015",
+		"price": 975,
+		"stock": 5,
+		"category": "Vida",
+		"status": true,
+		"id": 15
+	},
+	{
+		"title": "aromatizante de ambientes 1/2 litro",
+		"description": "Fragancia: Lavanda y Tilo",
+		"code": "016",
+		"price": 975,
+		"stock": 5,
+		"category": "Vida",
+		"status": true,
+		"id": 16
+	},
+	{
+		"title": "Polvo limpiador multiusos",
+		"description": "300 Grs.",
+		"code": "017",
+		"price": 700,
+		"stock": 20,
+		"category": "Hogar",
+		"status": true,
+		"id": 17
+	},
+	{
+		"title": "quitamanchas p/ropa 1/4 litro",
+		"description": "-",
+		"code": "018",
+		"price": 560,
+		"stock": 23,
+		"category": "Lavanderia",
+		"status": true,
+		"id": 18
+	},
+	{
+		"title": "repelente de insectos 1/4 litro",
+		"description": "Fragancia: Citronella",
+		"code": "019",
+		"price": 800,
+		"stock": 23,
+		"category": "Vida",
+		"status": true,
+		"id": 19
+	},
+	{
+		"title": "ELIMINAR",
+		"description": "Producto de prueba para eliminar",
+		"code": "400",
+		"price": 100,
+		"stock": 1,
+		"category": "-",
+		"status": true,
+		"id": 20
 	}
 ]
