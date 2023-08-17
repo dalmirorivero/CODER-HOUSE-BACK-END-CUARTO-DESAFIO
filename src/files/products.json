@@ -95,7 +95,7 @@
 		"code": "010",
 		"price": 650,
 		"stock": 8,
-		"category": "Hogar",
+		"category": "Casa",
 		"status": true,
 		"id": 10
 	},
@@ -190,13 +190,69 @@
 		"id": 19
 	},
 	{
-		"title": "ELIMINAR",
-		"description": "Producto de prueba para eliminar",
-		"code": "400",
-		"price": 100,
-		"stock": 1,
-		"category": "-",
+		"title": "Doni",
+		"description": "Perrito",
+		"code": "abc",
+		"price": 0,
+		"stock": 0,
+		"category": "Salchicha",
 		"status": true,
-		"id": 20
+		"id": 21
+	},
+	{
+		"title": "Donato",
+		"category": "Salchicha",
+		"description": "Perrito",
+		"code": "DOG",
+		"price": 0,
+		"stock": 0,
+		"status": true,
+		"id": 22
+	},
+	{
+		"title": "Donato",
+		"category": "Salchicha",
+		"description": "Perrito",
+		"code": "DOGY",
+		"price": 0,
+		"stock": 0,
+		"status": true,
+		"id": 23
+	},
+	{
+		"title": "Donato",
+		"category": "Salchicha",
+		"description": "Perrito",
+		"code": "DOG0",
+		"price": 0,
+		"stock": 0,
+		"status": true
+	},
+	{
+		"title": "Donato",
+		"category": "Salchicha",
+		"description": "Perrito",
+		"code": "DOG3",
+		"price": 0,
+		"stock": 0,
+		"status": true
+	},
+	{
+		"title": "Donato",
+		"category": "Salchicha",
+		"description": "Perrito",
+		"code": "DOG4",
+		"price": 0,
+		"stock": 0,
+		"status": true
+	},
+	{
+		"title": "Donato",
+		"category": "Salchicha",
+		"description": "Perrito",
+		"code": "DOG6",
+		"price": 0,
+		"stock": 0,
+		"status": true
 	}
 ]

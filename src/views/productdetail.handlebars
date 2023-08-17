@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Detalle del Producto</title>
+</head>
+<body>
+  <h1>Detalle del Producto</h1>
+  {{#if product}}
+    <h2>{{product.title}}</h2>
+    <ol>
+      <li>
+        <p>{{product.description}}</p>
+      </li>
+      <li>
+        Code: <p>{{product.code}}</p>
+        Price: <p>$ {{product.price}}</p> 
+        Stock: <p>{{product.stock}}</p> 
+      </li>
+      <li>
+        Category: <p>{{product.category}}</p>
+      </li>
+    </ol>
+  {{else}}
+    <p>Producto no encontrado</p>
+  {{/if}}
+</body>
+</html>

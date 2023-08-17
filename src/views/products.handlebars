@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PAGINA DE PRODUCTOS</title>
+</head>
+<body>
+  <h1>PAGINA DE PRODUCTOS</h1>
+  
+  <form id="filter_form" method="GET">
+    <input type="text" id="filter_input" name="filter" value="{{ filter }}" placeholder="Buscar productos...">
+    <button type="submit">Buscar</button>
+  </form>
+
+  <div class="allproducts">
+    {{#each products}}
+      <ol>
+        <li>
+          <h3>{{ this.title }}</h3>
+        </li>
+        <li>
+          <p>{{ this.description }}</p>
+        </li>
+        <li>
+          Code: <p>{{ this.code }}</p>
+          Price: <p>$ {{ this.price }}</p> 
+          Stock: <p>{{ this.stock }}</p> 
+        </li>
+        <li>
+          Category: <p>{{ this.category }}</p>
+        </li>
+      </ol>
+    {{/each}}
+  </div>
+</body>
+</html>
+
+<script src="/js/products.js"></script>
