@@ -1,6 +1,7 @@
 import { connect } from 'mongoose';
+import 'dotenv/config.js';
 
-connect('mongodb+srv://dalmirorivero:Donato23@rivero.eoyvren.mongodb.net/masnatural')
+connect(process.env.DB)
         .then(() => {
             console.log('db connection success')
         })

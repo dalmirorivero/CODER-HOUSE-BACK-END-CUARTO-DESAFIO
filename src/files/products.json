@@ -254,5 +254,35 @@
 		"price": 0,
 		"stock": 0,
 		"status": true
+	},
+	{
+		"title": "Draco",
+		"category": "Rata",
+		"description": "Un erizo invalido",
+		"code": "ER02",
+		"price": 1111,
+		"stock": 1,
+		"status": true,
+		"id": null
+	},
+	{
+		"title": "Draco",
+		"category": "Rata",
+		"description": "Un erizo invalido",
+		"code": "ER03",
+		"price": 1111,
+		"stock": 1,
+		"status": true,
+		"id": 1
+	},
+	{
+		"title": "Draco",
+		"category": "Rata",
+		"description": "Un erizo invalido",
+		"code": "ER04",
+		"price": 1111,
+		"stock": 1,
+		"status": true,
+		"id": 2
 	}
 ]

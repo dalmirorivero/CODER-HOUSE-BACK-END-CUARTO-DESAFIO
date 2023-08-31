@@ -1,6 +1,7 @@
 import { Router } from "express";
 import ProductManager from "../manager/ProductManager.js";
 import Product from "../DAO/models/product.js";
+import is_admin from "../middlewares/is_admin.js";
 
 const router = Router();
 const productManager = new ProductManager('./src/files/products.json');
@@ -51,7 +52,7 @@ router.get('/:pid', async (req, res) => {
   }
 });
 //POST /api/products
-router.post('/', async (req, res) => {
+router.post('/', is_admin, async (req, res) => {
   try {
     const productData = req.body;
     const newProduct = await Product.create(productData);
